@@ -4,72 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Justcuz3 Testing Site</title>
+    <meta name="description" content="Welcome to Justcuz3 Testing Site, where you can find delicious food and contact me through Discord.">
+    <meta name="keywords" content="food, Discord, bakery, menu, contact">
+    <meta name="author" content="Justcuz3">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Justcuz3 Testing Site</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#profile">Profile</a></li>
-                <li><a href="#menu">Menu</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <h1>Justcuz3 Testing Site</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#profile">Profile</a></li>
+                    <li><a href="menu.html">Menu</a></li> <!-- Link to menu.html -->
+                    <li><a href="egginc.html">Egg Inc. Community</a></li> <!-- Link to egginc.html -->
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
-        <section id="home" class="section">
-            <h2>Welcome</h2>
-            <p>Welcome to my food business website. Here you can find delicious food and contact me through Discord.</p>
-        </section>
-        <section id="profile" class="section">
-            <h2>My Discord Profile</h2>
-            <div class="profile">
-                <img src="discord_profile.jpg" alt="Profile Picture">
-                <h3>Justcuz3</h3>
-                <p>This is a short bio about you. Include your interests, what you do, and how you use Discord.</p>
-            </div>
-        </section>
-        <section id="menu" class="section">
-            <h2>Menu</h2>
-            <div class="card-container">
-                <div class="card">
-                    <h3>Sourdough</h3>
-                    <p>Delicious sourdough bread. (Inclusions extra)</p>
-                    <p>Price: $12</p>
+        <div class="container">
+            <section id="home" class="section">
+                <h2>Welcome</h2>
+                <p>Welcome to my food business website. Here you can find delicious food and contact me through Discord.</p>
+            </section>
+            <section id="profile" class="section">
+                <h2><a href="https://discord.gg/RFenbJXr" target="_blank">My Discord Community</a></h2>
+                <div class="profile">
+                    <img src="discord_profile.jpg" alt="Profile Picture">
+                    <h3>Justcuz3: Baking Enthusiast & Discord Connoisseur</h3>
+                    <p>Hey there! I'm Justcuz3, your friendly neighborhood baker and avid Discord user. From crafting artisanal sourdoughs to mixing exotic spice blends, I'm passionate about all things culinary. My journey with Discord goes beyond chats; it's a hub where foodies, like you, gather to swap recipes, share baking tips, and simply savor the joy of good food.</p>
+                    <p>When I'm not kneading dough or perfecting my bagel recipe, you can find me exploring new Discord servers, discovering communities that celebrate diverse flavors and culinary traditions. Join me on this delicious adventure!</p>
                 </div>
-                <div class="card">
-                    <h3>Sourdough Bagels</h3>
-                    <p>Sourdough bagels.</p>
-                    <p>4/pack: $8</p>
-                    <p>6/pack: $12</p>
-                    <p>13/pack: $22</p>
-                </div>
-                <div class="card">
-                    <h3>Baking/Spice/Other Mixes</h3>
-                    <p>Mixes that do not included all of the extra "stuff".</p>
-                    <p>Price: Varies (Please contact for more information)</p>
-                </div>
-            </div>
-        </section>
-        <section id="contact" class="section">
-            <h2>Contact</h2>
-            <form>
-                <label for="name">Name</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" required>
-                <label for="message">Message</label>
-                <textarea id="message" name="message" required></textarea>
-                <button type="submit">Send</button>
-            </form>
-        </section>
+            </section>
+        </div>
     </main>
     <footer>
-        <p>&copy; 2024 Justcuz3 Site Testing | Designed by Us</p>
+        <div class="container">
+            <p>&copy; 2024 Justcuz3 Site Testing | Designed by Us</p>
+        </div>
     </footer>
+
     <script src="js/scripts.js"></script>
 </body>
 </html>
